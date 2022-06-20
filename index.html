@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+		<title>Simple Chat</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Simple Chat" />
+		<script src="src/js/javascript.js" defer></script>
+		<link rel="stylesheet" href="src/css/style.css" />
+</head>
+<body>
+	<div class="menu">
+		<input type="username" id="inUsername" autocomplete="off" />
+		<input type="password" id="inPassword" autocomplete="off" />
+		<input type="button" value="signin" id="btSignin" />
+		<input type="button" value="login" id="btLogin" />
+		<input type="button" value="logout" id="btLogout" hidden />
+	</div>
+	<textarea id="outMessage" disabled></textarea>
+	<input type="text" id="inMessage" spellcheck autocomplete="off" maxlength="110" />
+	<input type="button" value="send" id="btSend" />
+	<a id="outAlert">&nbsp;</a>
+</body>
+</html>
